@@ -34,7 +34,7 @@ const exif = new Exif();
 conn.connect()
 const xinz = conn.xinz
 
-fake = "© 𝐗𝐢𝐧𝐳-𝐓𝐞𝐚𝐦"
+fake = "©FakeBot"
 fakeimage = fs.readFileSync("./media/aqul.jpeg")
 prefix = 'z'
 blocked = []
@@ -128,7 +128,7 @@ xinz.on('message-new', async(qul) => {
         if (isCmd && isGroup) {console.log(color('[CMD]'), color(moment(qul.messageTimestamp * 1000).format('DD/MM/YY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`), 'from', color(xinz.user.name), 'in', color(groupName))}
         switch (command) {
 			case 'menu': case 'help':
-				textnya = `	𝐗𝐈𝐍𝐙-𝐒𝐄𝐋𝐅𝐁𝐎𝐓
+				textnya = `©FakeBot
 
 \`\`\`▢ ${prefix}sticker\`\`\`
 \`\`\`▢ ${prefix}swm nama | author\`\`\`
